@@ -420,3 +420,29 @@ p {
 .testimonial__speech-bubble a {
   color: var(--color-pink);
 }
+
+/* Contact */
+#contact {
+  background-color: var(--color-pink);
+}
+
+.contack__title,
+.contack__email,
+.contack__rights {
+  color: var(--color-white);
+}
+
+.contack__title {
+  margin: 32px 0;
+}
+
+.contack__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contack__links i:hover {
+  transform: scale(1.2);
+  color: var(--color-yellow);
+  transition: all var(--animation-duration) ease-in;
+}
